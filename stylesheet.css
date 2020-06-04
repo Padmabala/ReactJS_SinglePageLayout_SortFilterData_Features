@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+}
+
+header {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px
+}
+
+table{
+  width: 100%;  
+}
+
+.listViewStyle{
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+}
+.listTable{
+  width: 100%;  
+}
+.headCellStyle{
+  padding: 10px;
+}
+
+.navbar {
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.filterSection{
+  margin-top: 75px;
+  width:100%; 
+}
+
+.filterButton{
+  float:right;
+  width:250px;
+  height:80px;
+
+}
+
+.root {
+  /*padding: 16px;
+  margin-top: 70px;
+
+  height: 1500px;*/
+  /* Used in this example to enable scrolling */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.row{  
+  margin-top: 60px;
+  margin-left: 68px;
+  
+}
+/* Create two equal columns that floats next to each other */
+.left {
+  float: left;
+  margin-top:10px;
+  width: 100%;   
+  margin-right:8px;
+  background-color:#aaa;
+}
+.left2 {
+  float: left;
+  margin-top:10px;
+  width: 100%;   
+  margin-right:8px;
+  background-color:#aaa;
+}
+
+.right {
+  float: left;
+  margin-top:10px;
+  width: 30%;
+  background-color:#bbb;
+}
