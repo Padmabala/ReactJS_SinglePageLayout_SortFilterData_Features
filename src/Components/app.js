@@ -164,7 +164,7 @@ const App = () => {
         }
     }
     return (
-        <div className="row">
+        <div>
             <div className="filterSection">
                 <table>
                     <tbody>
@@ -181,7 +181,7 @@ const App = () => {
             </div>
 
 
-            <div>
+            <div className="row">
                 <div className="left" style={viewPortStyle}>
                     <table className="listTable listViewStyle">
                         <thead>
