@@ -129,7 +129,7 @@ const App = () => {
             }
         }
         else {
-            tempFilterValues = filterValues.filter((v) => (v != val))
+            tempFilterValues = filterValues.filter((v) => (v!==val))
             setFilterValues(tempFilterValues)
             if (tempArrayOfFilterBuckets[field].length === 1) {
                 delete tempArrayOfFilterBuckets[field]
