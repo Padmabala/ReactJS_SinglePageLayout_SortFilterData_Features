@@ -14,7 +14,7 @@ const App = () => {
     //     console.log("Hello",data);
     //     setData(data);
     // })
-    //getMockJSONData()    
+    //getMockJSONData() /   
 
     const rawData = JSON.parse(JSON.stringify(data))
     const [viewPortStyle, updateViewPortStyle] = useStickyState({ width: '100%' },'viewPortStyle')
